@@ -1,0 +1,13 @@
+﻿  Application.cpp
+d:\mypersonalfiles\cpp_consoleengine\congraphengine\congraphengine\congraphcore\application.cpp(107): warning C4018: <: несоответствие типов со знаком и без знака
+d:\mypersonalfiles\cpp_consoleengine\congraphengine\congraphengine\congraphcore\application.cpp(118): warning C4018: <: несоответствие типов со знаком и без знака
+  Canvas.cpp
+  Console.cpp
+d:\mypersonalfiles\cpp_consoleengine\congraphengine\congraphengine\congraphcore\console.cpp(75): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+d:\mypersonalfiles\cpp_consoleengine\congraphengine\congraphengine\congraphcore\console.cpp(76): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+d:\mypersonalfiles\cpp_consoleengine\congraphengine\congraphengine\congraphcore\console.cpp(106): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+d:\mypersonalfiles\cpp_consoleengine\congraphengine\congraphengine\congraphcore\console.cpp(107): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+  ConGraphEngine.cpp
+  Object.cpp
+  Создание кода...
+  ConGraphEngine.vcxproj -> D:\MyPersonalFiles\CPP_ConsoleEngine\ConGraphEngine\Debug\ConGraphEngine.exe

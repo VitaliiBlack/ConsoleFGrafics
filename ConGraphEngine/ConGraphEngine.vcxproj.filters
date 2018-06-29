@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Core">
+      <UniqueIdentifier>{70e08943-d76d-4bd2-82c0-59fb944715f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Core\cpp">
+      <UniqueIdentifier>{53799b13-18fc-42a6-a650-ef3060f96d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Core\header">
+      <UniqueIdentifier>{c3c49522-de0c-4fe6-a5a0-4b236e54a6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Core\ObJects">
+      <UniqueIdentifier>{be8d782f-e56e-4324-afb7-4822ba12665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Logick">
+      <UniqueIdentifier>{13c0a249-eaa8-47db-99dd-a11d28e50d0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ConGraphCore\Application.h">
+      <Filter>Файлы ресурсов\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConGraphCore\Canvas.h">
+      <Filter>Файлы ресурсов\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConGraphCore\Console.h">
+      <Filter>Файлы ресурсов\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConGraphCore\Macros.h">
+      <Filter>Файлы ресурсов\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConGraphCore\Utils.h">
+      <Filter>Файлы ресурсов\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObJects\Object.h">
+      <Filter>Файлы ресурсов\Core\ObJects</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleTest.h">
+      <Filter>Файлы ресурсов\Logick</Filter>
+    </ClInclude>
+    <ClInclude Include="colorize.h">
+      <Filter>Файлы ресурсов\Logick</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ConGraphEngine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ConGraphCore\Application.cpp">
+      <Filter>Файлы ресурсов\Core\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ConGraphCore\Canvas.cpp">
+      <Filter>Файлы ресурсов\Core\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ConGraphCore\Console.cpp">
+      <Filter>Файлы ресурсов\Core\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ConGraphCore\Utils.cpp">
+      <Filter>Файлы ресурсов\Core\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObJects\Object.cpp">
+      <Filter>Файлы ресурсов\Core\ObJects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTest.cpp">
+      <Filter>Файлы ресурсов\Logick</Filter>
+    </ClCompile>
+    <ClCompile Include="colorize.cpp">
+      <Filter>Файлы ресурсов\Logick</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
