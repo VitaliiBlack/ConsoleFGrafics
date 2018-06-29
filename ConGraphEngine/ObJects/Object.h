@@ -6,6 +6,8 @@
 
 class Object
 {
+	//TODO: create Object types as moovable or not. 
+	//physsical 
 public:
   
   virtual void onKeyDown(int key) {};
